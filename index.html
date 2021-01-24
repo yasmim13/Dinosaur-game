@@ -1,20 +1,14 @@
 <!DOCTYPE html>
 <html lang="pt-br">
     <head>
-        <title>Minha página</title>
-        <meta charset="utf-8">
-        <script type="text/javascript" src="js/mainjs2.js"></script>
+        <title>Dino Game</title>
+        <meta charset="UTF-8">
+        <link rel="stylesheet" href="style.css"></link>
+        <script charset="UTF-8" src="script.js" defer></script>
     </head>
-    <body onload="load()">
-        <h1>Minha página</h1>
-        <button type ="button" onclick="botao()"> Clique aqui</button>
-        <p id="agradecimento" onclick="redirecionar()"></p>    
-        <p id="mousemove" onmouseover="trocar(this)"> Passe o mouse aqui</p>
-        <p id="mousemove2" onmouseover="trocar(this)" onmouseout="voltar(this)"> primeiro</p>
-        <select onchange="funcaoChange(this)">
-            <option value="1">Valor 1</option>
-            <option value="2"> Valor 2</option>
-            <option value="3"> Valor 3</option>
-        </select>
+    <body>
+        <div class="background">
+            <div class="dino"></div>
+        </div>
     </body>
 </html>
